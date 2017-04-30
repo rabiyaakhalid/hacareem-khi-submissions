@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Careem/LoginViewController.swift"
+            timestampString = "515212121.560277"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Careem.LoginViewController.__deallocating_deinit"
+                  moduleName = "Careem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/biya/Desktop/HaCareem/Careem/Careem/LoginViewController.swift"
+                  timestampString = "515212123.120103"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Careem.LoginViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Careem.LoginViewController"
+                  moduleName = "Careem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/biya/Desktop/HaCareem/Careem/Careem/LoginViewController.swift"
+                  timestampString = "515212123.183012"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "58">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Careem.LoginViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Careem.LoginViewController"
+                  moduleName = "Careem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/biya/Desktop/HaCareem/Careem/Careem/LoginViewController.swift"
+                  timestampString = "515212123.185346"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Careem.LoginViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Careem.LoginViewController&gt;"
+                  moduleName = "Careem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/biya/Desktop/HaCareem/Careem/Careem/LoginViewController.swift"
+                  timestampString = "515212123.187497"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Careem.LoginViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Careem.LoginViewController&gt;"
+                  moduleName = "Careem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/biya/Desktop/HaCareem/Careem/Careem/LoginViewController.swift"
+                  timestampString = "515212123.189342"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Careem/LoginViewController.swift"
+            timestampString = "515212123.076794"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Careem.LoginViewController.__deallocating_deinit"
+                  moduleName = "Careem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/biya/Desktop/HaCareem/Careem/Careem/LoginViewController.swift"
+                  timestampString = "515212123.209594"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Careem.LoginViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Careem.LoginViewController"
+                  moduleName = "Careem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/biya/Desktop/HaCareem/Careem/Careem/LoginViewController.swift"
+                  timestampString = "515212123.211797"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "58">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Careem.LoginViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Careem.LoginViewController"
+                  moduleName = "Careem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/biya/Desktop/HaCareem/Careem/Careem/LoginViewController.swift"
+                  timestampString = "515212123.213717"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Careem.LoginViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Careem.LoginViewController&gt;"
+                  moduleName = "Careem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/biya/Desktop/HaCareem/Careem/Careem/LoginViewController.swift"
+                  timestampString = "515212123.215513"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Careem.LoginViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Careem.LoginViewController&gt;"
+                  moduleName = "Careem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/biya/Desktop/HaCareem/Careem/Careem/LoginViewController.swift"
+                  timestampString = "515212123.217355"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Careem/LoginViewController.swift"
+            timestampString = "515215209.354549"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "7"
+            endingLineNumber = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		600F49381EB4A54300F96ECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600F49371EB4A54300F96ECC /* Assets.xcassets */; };
+		600F493C1EB4B5FA00F96ECC /* RoundedButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600F493B1EB4B5FA00F96ECC /* RoundedButtons.swift */; };
+		600F493E1EB4B60900F96ECC /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600F493D1EB4B60900F96ECC /* RoundTextField.swift */; };
+		6010309A1EB4E81400B74746 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601030991EB4E81400B74746 /* LoginViewController.swift */; };
+		6010309C1EB4E82200B74746 /* RideInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6010309B1EB4E82200B74746 /* RideInfoViewController.swift */; };
+		6010309E1EB5124C00B74746 /* CarType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6010309D1EB5124C00B74746 /* CarType.swift */; };
+		601030A01EB5159C00B74746 /* PriceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6010309F1EB5159C00B74746 /* PriceDetail.swift */; };
+		601030A21EB51FC500B74746 /* ArrivalTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601030A11EB51FC500B74746 /* ArrivalTime.swift */; };
+		601030A41EB5254200B74746 /* EstimateTripFareTimeAndDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601030A31EB5254200B74746 /* EstimateTripFareTimeAndDistance.swift */; };
+		601030A61EB526B900B74746 /* Surge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601030A51EB526B900B74746 /* Surge.swift */; };
+		601030A81EB545A800B74746 /* BookingCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601030A71EB545A800B74746 /* BookingCreate.swift */; };
+		601030AA1EB585E900B74746 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601030A91EB585E900B74746 /* CoreLocation.framework */; };
+		601211141EB48F17000DF63D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601211131EB48F17000DF63D /* AppDelegate.swift */; };
+		601211191EB48F17000DF63D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 601211171EB48F17000DF63D /* Main.storyboard */; };
+		6012111C1EB48F17000DF63D /* Careem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6012111A1EB48F17000DF63D /* Careem.xcdatamodeld */; };
+		601211211EB48F17000DF63D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6012111F1EB48F17000DF63D /* LaunchScreen.storyboard */; };
+		6012112C1EB48F17000DF63D /* CareemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6012112B1EB48F17000DF63D /* CareemTests.swift */; };
+		601211371EB48F17000DF63D /* CareemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601211361EB48F17000DF63D /* CareemUITests.swift */; };
+		9E16D4A64781588E584DD591 /* Pods_Careem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6907E6B140E32E8D0185CD7D /* Pods_Careem.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		601211281EB48F17000DF63D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 601211081EB48F16000DF63D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6012110F1EB48F17000DF63D;
+			remoteInfo = Careem;
+		};
+		601211331EB48F17000DF63D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 601211081EB48F16000DF63D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6012110F1EB48F17000DF63D;
+			remoteInfo = Careem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1810B8928AD7D0054F0427A8 /* Pods-Careem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Careem.release.xcconfig"; path = "Pods/Target Support Files/Pods-Careem/Pods-Careem.release.xcconfig"; sourceTree = "<group>"; };
+		227EFAC1F800BE440E80D364 /* Pods-Careem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Careem.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Careem/Pods-Careem.debug.xcconfig"; sourceTree = "<group>"; };
+		600F49371EB4A54300F96ECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		600F493B1EB4B5FA00F96ECC /* RoundedButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButtons.swift; sourceTree = "<group>"; };
+		600F493D1EB4B60900F96ECC /* RoundTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
+		601030991EB4E81400B74746 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6010309B1EB4E82200B74746 /* RideInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideInfoViewController.swift; sourceTree = "<group>"; };
+		6010309D1EB5124C00B74746 /* CarType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarType.swift; sourceTree = "<group>"; };
+		6010309F1EB5159C00B74746 /* PriceDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceDetail.swift; sourceTree = "<group>"; };
+		601030A11EB51FC500B74746 /* ArrivalTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrivalTime.swift; sourceTree = "<group>"; };
+		601030A31EB5254200B74746 /* EstimateTripFareTimeAndDistance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EstimateTripFareTimeAndDistance.swift; sourceTree = "<group>"; };
+		601030A51EB526B900B74746 /* Surge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Surge.swift; sourceTree = "<group>"; };
+		601030A71EB545A800B74746 /* BookingCreate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingCreate.swift; sourceTree = "<group>"; };
+		601030A91EB585E900B74746 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		601211101EB48F17000DF63D /* Careem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Careem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		601211131EB48F17000DF63D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		601211181EB48F17000DF63D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6012111B1EB48F17000DF63D /* Careem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Careem.xcdatamodel; sourceTree = "<group>"; };
+		601211201EB48F17000DF63D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		601211221EB48F17000DF63D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		601211271EB48F17000DF63D /* CareemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CareemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6012112B1EB48F17000DF63D /* CareemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareemTests.swift; sourceTree = "<group>"; };
+		6012112D1EB48F17000DF63D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		601211321EB48F17000DF63D /* CareemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CareemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		601211361EB48F17000DF63D /* CareemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareemUITests.swift; sourceTree = "<group>"; };
+		601211381EB48F17000DF63D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6907E6B140E32E8D0185CD7D /* Pods_Careem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Careem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6012110D1EB48F17000DF63D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				601030AA1EB585E900B74746 /* CoreLocation.framework in Frameworks */,
+				9E16D4A64781588E584DD591 /* Pods_Careem.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		601211241EB48F17000DF63D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6012112F1EB48F17000DF63D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		600F49331EB4A1A500F96ECC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				601030991EB4E81400B74746 /* LoginViewController.swift */,
+				6010309B1EB4E82200B74746 /* RideInfoViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		600F49341EB4A1AB00F96ECC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				600F493D1EB4B60900F96ECC /* RoundTextField.swift */,
+				600F493B1EB4B5FA00F96ECC /* RoundedButtons.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		600F49351EB4A1B100F96ECC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6010309D1EB5124C00B74746 /* CarType.swift */,
+				6010309F1EB5159C00B74746 /* PriceDetail.swift */,
+				601030A11EB51FC500B74746 /* ArrivalTime.swift */,
+				601030A31EB5254200B74746 /* EstimateTripFareTimeAndDistance.swift */,
+				601030A51EB526B900B74746 /* Surge.swift */,
+				601030A71EB545A800B74746 /* BookingCreate.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		600F49361EB4A1C800F96ECC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				600F49371EB4A54300F96ECC /* Assets.xcassets */,
+				601211131EB48F17000DF63D /* AppDelegate.swift */,
+				6012111A1EB48F17000DF63D /* Careem.xcdatamodeld */,
+				601211221EB48F17000DF63D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		601211071EB48F16000DF63D = {
+			isa = PBXGroup;
+			children = (
+				601211121EB48F17000DF63D /* Careem */,
+				6012112A1EB48F17000DF63D /* CareemTests */,
+				601211351EB48F17000DF63D /* CareemUITests */,
+				601211111EB48F17000DF63D /* Products */,
+				EF28D6CF7FB3EB79657B8A20 /* Pods */,
+				875C45289EDBA1116C543630 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		601211111EB48F17000DF63D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				601211101EB48F17000DF63D /* Careem.app */,
+				601211271EB48F17000DF63D /* CareemTests.xctest */,
+				601211321EB48F17000DF63D /* CareemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		601211121EB48F17000DF63D /* Careem */ = {
+			isa = PBXGroup;
+			children = (
+				6012111F1EB48F17000DF63D /* LaunchScreen.storyboard */,
+				601211171EB48F17000DF63D /* Main.storyboard */,
+				600F49361EB4A1C800F96ECC /* Supporting Files */,
+				600F49351EB4A1B100F96ECC /* Model */,
+				600F49341EB4A1AB00F96ECC /* View */,
+				600F49331EB4A1A500F96ECC /* Controller */,
+			);
+			path = Careem;
+			sourceTree = "<group>";
+		};
+		6012112A1EB48F17000DF63D /* CareemTests */ = {
+			isa = PBXGroup;
+			children = (
+				6012112B1EB48F17000DF63D /* CareemTests.swift */,
+				6012112D1EB48F17000DF63D /* Info.plist */,
+			);
+			path = CareemTests;
+			sourceTree = "<group>";
+		};
+		601211351EB48F17000DF63D /* CareemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				601211361EB48F17000DF63D /* CareemUITests.swift */,
+				601211381EB48F17000DF63D /* Info.plist */,
+			);
+			path = CareemUITests;
+			sourceTree = "<group>";
+		};
+		875C45289EDBA1116C543630 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				601030A91EB585E900B74746 /* CoreLocation.framework */,
+				6907E6B140E32E8D0185CD7D /* Pods_Careem.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF28D6CF7FB3EB79657B8A20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				227EFAC1F800BE440E80D364 /* Pods-Careem.debug.xcconfig */,
+				1810B8928AD7D0054F0427A8 /* Pods-Careem.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6012110F1EB48F17000DF63D /* Careem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6012113B1EB48F17000DF63D /* Build configuration list for PBXNativeTarget "Careem" */;
+			buildPhases = (
+				7AAB90FCBFB037418657FD0B /* [CP] Check Pods Manifest.lock */,
+				6012110C1EB48F17000DF63D /* Sources */,
+				6012110D1EB48F17000DF63D /* Frameworks */,
+				6012110E1EB48F17000DF63D /* Resources */,
+				16C92BE1EA827C6BDC07B7ED /* [CP] Embed Pods Frameworks */,
+				9675DB698ECF485CD21BFF7C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Careem;
+			productName = Careem;
+			productReference = 601211101EB48F17000DF63D /* Careem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		601211261EB48F17000DF63D /* CareemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6012113E1EB48F17000DF63D /* Build configuration list for PBXNativeTarget "CareemTests" */;
+			buildPhases = (
+				601211231EB48F17000DF63D /* Sources */,
+				601211241EB48F17000DF63D /* Frameworks */,
+				601211251EB48F17000DF63D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				601211291EB48F17000DF63D /* PBXTargetDependency */,
+			);
+			name = CareemTests;
+			productName = CareemTests;
+			productReference = 601211271EB48F17000DF63D /* CareemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		601211311EB48F17000DF63D /* CareemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 601211411EB48F17000DF63D /* Build configuration list for PBXNativeTarget "CareemUITests" */;
+			buildPhases = (
+				6012112E1EB48F17000DF63D /* Sources */,
+				6012112F1EB48F17000DF63D /* Frameworks */,
+				601211301EB48F17000DF63D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				601211341EB48F17000DF63D /* PBXTargetDependency */,
+			);
+			name = CareemUITests;
+			productName = CareemUITests;
+			productReference = 601211321EB48F17000DF63D /* CareemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		601211081EB48F16000DF63D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Rabiya  Khalid";
+				TargetAttributes = {
+					6012110F1EB48F17000DF63D = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = ZA58YVVUJR;
+						ProvisioningStyle = Automatic;
+					};
+					601211261EB48F17000DF63D = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = ZA58YVVUJR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6012110F1EB48F17000DF63D;
+					};
+					601211311EB48F17000DF63D = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = ZA58YVVUJR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6012110F1EB48F17000DF63D;
+					};
+				};
+			};
+			buildConfigurationList = 6012110B1EB48F16000DF63D /* Build configuration list for PBXProject "Careem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 601211071EB48F16000DF63D;
+			productRefGroup = 601211111EB48F17000DF63D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6012110F1EB48F17000DF63D /* Careem */,
+				601211261EB48F17000DF63D /* CareemTests */,
+				601211311EB48F17000DF63D /* CareemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6012110E1EB48F17000DF63D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				601211211EB48F17000DF63D /* LaunchScreen.storyboard in Resources */,
+				600F49381EB4A54300F96ECC /* Assets.xcassets in Resources */,
+				601211191EB48F17000DF63D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		601211251EB48F17000DF63D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		601211301EB48F17000DF63D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16C92BE1EA827C6BDC07B7ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Careem/Pods-Careem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AAB90FCBFB037418657FD0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9675DB698ECF485CD21BFF7C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Careem/Pods-Careem-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6012110C1EB48F17000DF63D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6010309C1EB4E82200B74746 /* RideInfoViewController.swift in Sources */,
+				600F493C1EB4B5FA00F96ECC /* RoundedButtons.swift in Sources */,
+				601030A41EB5254200B74746 /* EstimateTripFareTimeAndDistance.swift in Sources */,
+				601030A01EB5159C00B74746 /* PriceDetail.swift in Sources */,
+				6010309E1EB5124C00B74746 /* CarType.swift in Sources */,
+				6012111C1EB48F17000DF63D /* Careem.xcdatamodeld in Sources */,
+				600F493E1EB4B60900F96ECC /* RoundTextField.swift in Sources */,
+				601030A81EB545A800B74746 /* BookingCreate.swift in Sources */,
+				6010309A1EB4E81400B74746 /* LoginViewController.swift in Sources */,
+				601211141EB48F17000DF63D /* AppDelegate.swift in Sources */,
+				601030A61EB526B900B74746 /* Surge.swift in Sources */,
+				601030A21EB51FC500B74746 /* ArrivalTime.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		601211231EB48F17000DF63D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6012112C1EB48F17000DF63D /* CareemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6012112E1EB48F17000DF63D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				601211371EB48F17000DF63D /* CareemUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		601211291EB48F17000DF63D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6012110F1EB48F17000DF63D /* Careem */;
+			targetProxy = 601211281EB48F17000DF63D /* PBXContainerItemProxy */;
+		};
+		601211341EB48F17000DF63D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6012110F1EB48F17000DF63D /* Careem */;
+			targetProxy = 601211331EB48F17000DF63D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		601211171EB48F17000DF63D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				601211181EB48F17000DF63D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6012111F1EB48F17000DF63D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				601211201EB48F17000DF63D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		601211391EB48F17000DF63D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6012113A1EB48F17000DF63D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6012113C1EB48F17000DF63D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 227EFAC1F800BE440E80D364 /* Pods-Careem.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZA58YVVUJR;
+				INFOPLIST_FILE = Careem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rabiya.Careem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6012113D1EB48F17000DF63D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1810B8928AD7D0054F0427A8 /* Pods-Careem.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZA58YVVUJR;
+				INFOPLIST_FILE = Careem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rabiya.Careem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6012113F1EB48F17000DF63D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZA58YVVUJR;
+				INFOPLIST_FILE = CareemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rabiya.CareemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Careem.app/Careem";
+			};
+			name = Debug;
+		};
+		601211401EB48F17000DF63D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZA58YVVUJR;
+				INFOPLIST_FILE = CareemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rabiya.CareemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Careem.app/Careem";
+			};
+			name = Release;
+		};
+		601211421EB48F17000DF63D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZA58YVVUJR;
+				INFOPLIST_FILE = CareemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rabiya.CareemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Careem;
+			};
+			name = Debug;
+		};
+		601211431EB48F17000DF63D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZA58YVVUJR;
+				INFOPLIST_FILE = CareemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rabiya.CareemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Careem;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6012110B1EB48F16000DF63D /* Build configuration list for PBXProject "Careem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				601211391EB48F17000DF63D /* Debug */,
+				6012113A1EB48F17000DF63D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6012113B1EB48F17000DF63D /* Build configuration list for PBXNativeTarget "Careem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6012113C1EB48F17000DF63D /* Debug */,
+				6012113D1EB48F17000DF63D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6012113E1EB48F17000DF63D /* Build configuration list for PBXNativeTarget "CareemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6012113F1EB48F17000DF63D /* Debug */,
+				601211401EB48F17000DF63D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		601211411EB48F17000DF63D /* Build configuration list for PBXNativeTarget "CareemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				601211421EB48F17000DF63D /* Debug */,
+				601211431EB48F17000DF63D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6012111A1EB48F17000DF63D /* Careem.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6012111B1EB48F17000DF63D /* Careem.xcdatamodel */,
+			);
+			currentVersion = 6012111B1EB48F17000DF63D /* Careem.xcdatamodel */;
+			path = Careem.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 601211081EB48F16000DF63D /* Project object */;
+}
